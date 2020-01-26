@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>740</x>
+      <y>200</y>
+      <w>130</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>커뮤니티 융합
+채팅 플랫폼</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>400</y>
+      <w>550</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>카테고리 커스텀 제공
+--
+
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>440</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>채팅그룹 속성 지정
+--
+카테고리 세분화(주제)
+--
+카테고리 대화 인원 세분화
+--
+카테고리 공개 여부 설정
+--
+카테고리 폼 등록
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>100</x>
+      <y>440</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>카테고리 폼 제작 및 판매
+--
+카테고리 평가 시스템
+--
+결제 시스템
+--
+카테고리 폼 제작 UI 제공
+--
+카테고리 폼 제작 Api 제공
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>660</x>
+      <y>400</y>
+      <w>260</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 생성
+--
+커뮤니티 위치 등록 - 구글 맵스
+--
+블루투스 기반 채팅 참가, 주변 사용자 검색
+--
+맞춤형 카테고리/커뮤니티 추천
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

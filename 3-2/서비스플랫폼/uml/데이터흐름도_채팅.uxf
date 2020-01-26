@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>484</x>
+      <y>154</y>
+      <w>880</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>891</x>
+      <y>209</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>RestAPI
+
+(Back-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>517</x>
+      <y>209</y>
+      <w>132</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>User Interface
+
+(App, Web)
+
+(Front-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>891</x>
+      <y>495</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 시스템
+
+( AI )
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1210</x>
+      <y>209</y>
+      <w>110</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1023</x>
+      <y>594</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>3) 채팅 데이터 분석
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1023</x>
+      <y>297</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>2) DB에 등록
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>165</x>
+      <y>154</y>
+      <w>132</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅방에 참여할 인원
+fontsize=12
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>198</x>
+      <y>341</y>
+      <w>66</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자 1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>198</x>
+      <y>209</y>
+      <w>66</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>그룹장</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>187</x>
+      <y>473</y>
+      <w>88</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자 2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>176</x>
+      <y>605</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자 3...n</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>638</x>
+      <y>297</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>Socket I/O
+lt=-</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>297</y>
+      <w>253</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>1) 채팅 입력
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1023</x>
+      <y>550</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>4) 카테고리 생성
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>374</y>
+      <w>253</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>5) 채팅 전파
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>286</x>
+      <y>451</y>
+      <w>253</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>6) 카테고리 반환
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1023</x>
+      <y>363</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>채팅 데이터 분석
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+</diagram>

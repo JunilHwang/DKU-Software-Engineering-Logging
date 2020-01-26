@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>473</x>
+      <y>121</y>
+      <w>880</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>880</x>
+      <y>176</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>RestAPI
+
+(Back-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>506</x>
+      <y>176</y>
+      <w>132</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>User Interface
+
+(App, Web)
+
+(Front-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>880</x>
+      <y>462</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 시스템
+
+( AI )
+valign=center
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1199</x>
+      <y>176</y>
+      <w>110</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1012</x>
+      <y>572</y>
+      <w>209</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1012</x>
+      <y>264</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>3) DB에 등록
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>264</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>2) 서버에 개설 정보 등록
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>209</x>
+      <y>121</y>
+      <w>132</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅방에 참여할 인원
+fontsize=12
+halign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>242</x>
+      <y>308</y>
+      <w>66</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자 1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>242</x>
+      <y>176</y>
+      <w>66</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>그룹장</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>231</x>
+      <y>440</y>
+      <w>88</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자 2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>220</x>
+      <y>572</y>
+      <w>110</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자 3...n</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>297</x>
+      <y>198</y>
+      <w>231</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>1) 채팅방 개설
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1012</x>
+      <y>308</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>4) 결과 반환
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>627</x>
+      <y>308</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>5) 개설 정보 반환
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>374</y>
+      <w>198</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>6) 개설 완료
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0;80.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+</diagram>

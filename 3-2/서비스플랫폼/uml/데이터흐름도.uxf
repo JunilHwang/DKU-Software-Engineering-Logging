@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>506</x>
+      <y>77</y>
+      <w>880</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>913</x>
+      <y>132</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>RestAPI
+
+(Back-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>539</x>
+      <y>132</y>
+      <w>132</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>User Interface
+
+(App, Web)
+
+(Front-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>913</x>
+      <y>418</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 시스템
+
+( AI )
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1232</x>
+      <y>132</y>
+      <w>110</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1045</x>
+      <y>528</y>
+      <w>209</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1045</x>
+      <y>231</y>
+      <w>209</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>231</y>
+      <w>275</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;230.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLHierarchy</id>
+    <coordinates>
+      <x>66</x>
+      <y>110</y>
+      <w>220</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>type=Actor
+그룹장
+	사용자 1
+	사용자 2
+	사용자 3...N</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>143</x>
+      <y>506</y>
+      <w>66</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>일반
+사용자</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>220</x>
+      <y>110</y>
+      <w>66</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>채팅방
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>198</x>
+      <y>539</y>
+      <w>363</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>310.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

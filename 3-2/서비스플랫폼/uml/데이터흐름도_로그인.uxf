@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>440</x>
+      <y>132</y>
+      <w>880</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>847</x>
+      <y>187</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>RestAPI
+
+(Back-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>473</x>
+      <y>187</y>
+      <w>132</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>User Interface
+
+(App, Web)
+
+(Front-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>847</x>
+      <y>473</y>
+      <w>143</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 시스템
+
+( AI )
+valign=center
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1166</x>
+      <y>187</y>
+      <w>110</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>979</x>
+      <y>583</y>
+      <w>209</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>979</x>
+      <y>231</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>3) 일치하는 아이디 탐색
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>209</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>2) 사용자 입력 정보 전송
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>66</x>
+      <y>561</y>
+      <w>66</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>사용자</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>121</x>
+      <y>594</y>
+      <w>374</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>1) 로그인 정보 입력
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;320.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>979</x>
+      <y>286</y>
+      <w>209</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>4) 결과 반환
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>286</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>5) JSON으로 결과 출력
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>121</x>
+      <y>528</y>
+      <w>374</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>r2=6) 로그인 정보가 존재하면 토큰 반환 \n로그인 정보가 없다면 1)부터 시작
+r2pos=-15,-5
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;320.0;40.0</additional_attributes>
+  </element>
+</diagram>

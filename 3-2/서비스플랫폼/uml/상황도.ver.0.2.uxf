@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>440</x>
+      <y>310</y>
+      <w>250</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티
+융합 플랫폼
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>140</x>
+      <y>310</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>사용자 A</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>330</y>
+      <w>260</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>사용자 지점 폼 등록
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>390</y>
+      <w>380</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>r1=사용자 지정 폼 검색
+r2=사용자 지정 폼 제공
+r1pos=0,-5
+r2pos=0,-5
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>360.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLHierarchy</id>
+    <coordinates>
+      <x>1040</x>
+      <y>310</y>
+      <w>200</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>type=Actor
+채팅방 관리자
+	사용자 1
+	사용자 2...</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>320</y>
+      <w>380</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>fontsize=13
+r1=1) 블루투스 기반 사용자 검색
+r2=1) 사용자 식별
+m1=2) 위치 기반 채팅 등록
+m2=2) 채팅 검색
+r1pos=0,-10
+m1pos=0,10
+r2pos=0,-10
+m2pos=-11,10
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;360.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>460</y>
+      <w>380</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>r1=채팅 서비스 제공
+r2=채팅 이용
+lt=&lt;&lt;-&gt;&gt;
+</panel_attributes>
+    <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>780</x>
+      <y>480</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>채팅 분석
+카테고리 자동 분류
+halign=center
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>140</x>
+      <y>430</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>사용자 C</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>450</y>
+      <w>260</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>맞춤형 정보 제공
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+</diagram>

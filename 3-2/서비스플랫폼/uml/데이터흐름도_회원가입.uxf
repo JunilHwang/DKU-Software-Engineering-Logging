@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>429</x>
+      <y>165</y>
+      <w>880</w>
+      <h>583</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>825</x>
+      <y>220</y>
+      <w>154</w>
+      <h>242</h>
+    </coordinates>
+    <panel_attributes>RestAPI
+
+(Back-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>451</x>
+      <y>220</y>
+      <w>132</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>User Interface
+
+(App, Web)
+
+(Front-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>825</x>
+      <y>484</y>
+      <w>154</w>
+      <h>242</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 시스템
+
+( AI )
+valign=center
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1177</x>
+      <y>220</y>
+      <w>110</w>
+      <h>506</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>968</x>
+      <y>616</y>
+      <w>231</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>968</x>
+      <y>297</y>
+      <w>231</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>3) DB에서 회원 정보 조회
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>253</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>2) 중복 회원정보 탐색
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>132</x>
+      <y>341</y>
+      <w>66</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>일반
+사용자</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>968</x>
+      <y>341</y>
+      <w>231</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>4) 결과 반환
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>308</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>5) JSON 형태로 결과 반환
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>154</x>
+      <y>231</y>
+      <w>319</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0;270.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>187</x>
+      <y>209</y>
+      <w>231</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>1) 회원 정보 입력
+style=wordwrap
+halign=center
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>187</x>
+      <y>341</y>
+      <w>286</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>r2=6-2) 중복결과가 있다면 1)로
+r2pos=-10,-10
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;30.0;240.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>363</y>
+      <w>275</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>r1=6-1) 중복 결과가 없다면 \n       회원 정보 등록
+r1pos=30,0
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;230.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>968</x>
+      <y>396</y>
+      <w>231</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>7) DB에 등록
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>418</y>
+      <w>275</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>r1=8) JSON 형태로 결과 반환
+r1pos=20,0
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;230.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>187</x>
+      <y>396</y>
+      <w>286</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>r1=9) 사용자에게 결과 알림
+r1pos=20,0
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0</additional_attributes>
+  </element>
+</diagram>

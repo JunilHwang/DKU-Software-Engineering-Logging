@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>890</x>
+      <y>200</y>
+      <w>130</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>RestAPI
+
+(Back-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>560</x>
+      <y>200</y>
+      <w>120</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>User Interface
+
+(App, Web)
+
+(Front-end)
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1070</x>
+      <y>380</y>
+      <w>130</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 시스템
+( AI )
+valign=center
+lt=.</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1230</x>
+      <y>190</y>
+      <w>100</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Database
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1190</x>
+      <y>400</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>120</x>
+      <y>320</y>
+      <w>80</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>사용자 B</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>530</x>
+      <y>150</y>
+      <w>820</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>190</y>
+      <w>200</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>채팅방 A
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>250</x>
+      <y>210</y>
+      <w>330</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>r1=1) 지도에 채팅방 등록\n12) 승락
+lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1010</x>
+      <y>240</y>
+      <w>240</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>r1=3) DB에 저장\n6) DB에서 검색\n14) DB에 저장
+m2=7) 정보 반환
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;220.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>330</y>
+      <w>400</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>r1=4) 지도에서 채팅방 검색\n10) 채팅방 A 참여 요청
+m2=9) 채팅방 정보 반환
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;30.0;380.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>240</y>
+      <w>240</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>r1=2) 서버에 정보 전송\n5) 서버에 정보 전송\n13) 서버에 정보 전송
+m2=8) JSON 형태로 반환\n11) 그룹장에 푸쉬 알림\n15) 사용자 B에 푸쉬 알림
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;220.0;50.0</additional_attributes>
+  </element>
+</diagram>

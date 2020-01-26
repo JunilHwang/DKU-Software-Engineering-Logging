@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>160</x>
+      <y>210</y>
+      <w>1050</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>채팅 커뮤니티 융합 플랫폼
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>550</x>
+      <y>260</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Restful API
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>260</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>크로스 플랫폼 인터페이스
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>200</x>
+      <y>300</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Android, IOS App
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>200</x>
+      <y>400</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Desktop, Mobile Web
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>300</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>채팅 Input/Output
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>340</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>카테고리 Input/Output
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>200</x>
+      <y>350</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Window, OS X App
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>430</x>
+      <y>370</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Socket 통신
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>930</x>
+      <y>260</y>
+      <w>260</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>데이터 분석 AI 시스템
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>950</x>
+      <y>300</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>채팅 키워드 분석
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>950</x>
+      <y>350</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>카테고리 자동 분류
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>950</x>
+      <y>400</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>사용자 맞춤 정보 분류
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>800</x>
+      <y>370</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>DB CRUD
+lt=&lt;&lt;-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>380</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>사용자 지정 폼 Input/Output 
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>200</x>
+      <y>450</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>사용자 지정 폼 UI
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>180</x>
+      <y>540</y>
+      <w>1010</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Dashboard System - 정보 시각화
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>420</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>지도정도 Input/Output
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>950</x>
+      <y>450</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>사용자 맞춤 정보 분류
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>500</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>500</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1050</x>
+      <y>500</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>220</x>
+      <y>580</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>연령대별 핵심 키워드 차트
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>430</x>
+      <y>580</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>직업별 핵심 키워드 차트
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>820</x>
+      <y>580</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>일일 데이터 생산 차트
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>650</x>
+      <y>580</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>기간별 키워드 차트
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>460</y>
+      <w>220</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>보안 통신
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>990</x>
+      <y>580</y>
+      <w>160</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>인기 FORM 차트
+valign=center</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

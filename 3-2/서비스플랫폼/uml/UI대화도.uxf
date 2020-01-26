@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>100</y>
+      <w>260</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>사용자</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>100</y>
+      <w>280</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>채팅</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>100</y>
+      <w>260</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>카테고리</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>140</y>
+      <w>260</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>사용자 유형
+--
+- 대화방 관리자
+- READ 권한을 가진 사용자
+- WRITE/READ 권한을 가진 사용자
+- 폼 판매자
+--
+사용자 정보
+--
+- 이메일
+- 전화 번호
+- 패스워드
+
+- 소속 그룹
+- 사용자 정보 태그 
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>140</y>
+      <w>280</w>
+      <h>730</h>
+    </coordinates>
+    <panel_attributes>채팅그룹 생성 옵션
+--
+- PUBLIC/PRIVATE 지정
+- 채팅그룹 관리자 지정
+- 채팅 참여자 등록
+(블루투스, 친구목록, 아이디검색)
+- 대화방 암호 설정
+- QR코드 등록
+- 대화방 링크
+- 지도 등록
+- 그룹 공개 범위 설정
+(특정 사용자, 특정 그룹, 모든 사용자, 친구)
+- 인원 추가
+(특정 사용자, 특정 그룹, 모든 사용자, 친구)
+--
+하위 채팅그룹 옵션
+(대화 생성 옵션을 모두 포함)
+--
+- 채팅의 방향성 지정 (쌍방형, 양방형)
+- 카테고리 생성
+- 카테고리 폼 지정
+- 상위 채팅그룹/카테고리 선택
+- 채팅 주제 지정
+- 상위 그룹 참여자 증 하위 그룹 참여자 지정
+--
+채팅 대화 옵션
+--
+- 채팅을 보낼 그룹 지정
+(전체/하위1/하위2/하위N)
+- 카테고리 폼 선택
+- 연관된 채팅 지정
+- 카테고리 키워드 태그 사용
+- 특정 사용자 태그
+--
+채팅 그룹 관리자 옵션
+--
+- PUBLIC/PRIVATE 지정
+- 카테고리 추가 및 폼 등록
+- 채팅 참여자의 권한
+(Read, Write, Setting, 초대) 설정
+- 강퇴기능
+--
+채팅 필터 옵션
+--
+- 나에게 온 모든 채팅 조회
+- 특정 카테고리채팅 조회
+- 우선순위 정렬
+- 날짜 정렬
+- 이름 정렬
+- 그룹 필터
+- 카테고리/그룹 알림 설정
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>990</x>
+      <y>140</y>
+      <w>260</w>
+      <h>550</h>
+    </coordinates>
+    <panel_attributes>사용자 폼 UI 제공
+--
+- 텍스트 링크
+- 고정 텍스트 
+- 텍스트 크기 조절
+- 버튼(크기, 색상, 여백)
+- 엑셀 표기능(차트만들기, 함수, 자동입력)
+- 표 생성
+- 라디오 박스
+- 체크박스
+- 셀렉트 박스
+- 텍스트 인풋 박스
+- 달력
+- 기간 선택
+- STATE(WORKFLOW) 등록
+- 우선순위 등록
+--
+플러그인 정보
+--
+- 사용자 정보 연결
+- 지원 언어
+- 외부 API 연동
+- 프로그래밍
+--
+폼 옵션
+--
+- 구매자 사용 후기
+- 판매자의 카테고리 폼 설명
+- 구매자 수
+- 별점
+- 무료/유료 
+--
+카테고리 생성 옵션
+--
+- 카테고리 생성자 정보
+- 카테고리 관리자 정보
+- 키워드 등록/수정/삭제
+- 우선순위 지정
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>300</x>
+      <y>260</y>
+      <w>190</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>200</x>
+      <y>260</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>필수정보</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>50</y>
+      <w>600</w>
+      <h>460</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;290.0;170.0;290.0;170.0;10.0;530.0;10.0;530.0;440.0;580.0;440.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>690</x>
+      <y>20</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>카테고리 폼 추천</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>280</y>
+      <w>230</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;70.0;190.0;70.0;190.0;10.0;210.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>450</x>
+      <y>360</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>커뮤니티 추천</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

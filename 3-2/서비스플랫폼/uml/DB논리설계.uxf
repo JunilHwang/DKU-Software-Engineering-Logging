@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>13</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>338</x>
+      <y>39</y>
+      <w>130</w>
+      <h>273</h>
+    </coordinates>
+    <panel_attributes>개인정보
+halign=center
+valign=center
+style=autoresize
+-
+/Index Number/
+-.
+아이디
+-.
+비밀번호
+-.
+이름
+-.
+닉네임
+-.
+이메일
+-.
+연락처
+-.
+프로필 이미지</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>208</y>
+      <w>143</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>채팅정보
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+카테고리 번호
+-.
+채팅방 번호
+-.
+작성자
+-.
+내용
+-.
+작성일</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>468</y>
+      <w>143</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>채팅방
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+상위 채팅방
+-.
+채팅방 이름
+-.
+지도 정보</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>65</y>
+      <w>169</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>카테고리
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+상위 카테고리 번호
+-.
+카테고리 이름</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>299</x>
+      <y>338</y>
+      <w>169</w>
+      <h>104</h>
+    </coordinates>
+    <panel_attributes>친구 정보
+halign=center
+valign=center
+style=autoresize
+-
+회원 번호
+-.
+회원의 친구 번호</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>468</y>
+      <w>117</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>우선순위
+halign=center
+valign=center
+style=autoresize
+-
+채팅방 번호
+-.
+회원 번호
+-.
+우선순위 값</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>871</x>
+      <y>312</y>
+      <w>195</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>사용자 제작 폼
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+제작자 회원 번호
+-.
+폼 이름
+-.
+출력 내용
+-.
+구매(다운로드) 횟수
+-.
+조회 수
+-.
+작성일</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>871</x>
+      <y>65</y>
+      <w>195</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>사용자 제작 폼 리뷰
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+폼 번호
+-.
+작성자 회원 번호
+-.
+제목
+-.
+내용
+-.
+작성일
+-.
+별점</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>871</x>
+      <y>572</y>
+      <w>169</w>
+      <h>234</h>
+    </coordinates>
+    <panel_attributes>플러그인 정보
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+작성자 회원 번호
+-.
+제목
+-.
+내용
+-.
+다운로드 링크
+-.
+작성일
+-.
+버전 정보</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>325</x>
+      <y>624</y>
+      <w>143</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>푸쉬 정보
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+채팅방 번호
+-.
+작성 회원 번호
+-.
+내용</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>533</x>
+      <y>104</y>
+      <w>117</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0;10.0;30.0;70.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>481</x>
+      <y>299</y>
+      <w>169</w>
+      <h>247</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0;10.0;170.0;110.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>78</y>
+      <w>195</w>
+      <h>312</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0;50.0;220.0;130.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>78</y>
+      <w>117</w>
+      <h>338</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>40.0;240.0;10.0;240.0;10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>78</y>
+      <w>117</w>
+      <h>364</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>40.0;260.0;10.0;260.0;10.0;10.0;70.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>533</x>
+      <y>104</y>
+      <w>117</w>
+      <h>208</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0;10.0;140.0;70.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>507</y>
+      <w>195</w>
+      <h>39</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>78</y>
+      <w>130</w>
+      <h>494</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0;10.0;360.0;80.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>26</y>
+      <w>442</w>
+      <h>169</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;300.0;10.0;300.0;110.0;320.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>26</y>
+      <w>442</w>
+      <h>390</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;300.0;10.0;300.0;280.0;320.0;280.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1053</x>
+      <y>130</y>
+      <w>78</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;180.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>26</y>
+      <w>442</w>
+      <h>650</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;50.0;50.0;50.0;50.0;10.0;300.0;10.0;300.0;480.0;320.0;480.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>247</x>
+      <y>78</y>
+      <w>117</w>
+      <h>676</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0;10.0;500.0;60.0;500.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>507</y>
+      <w>195</w>
+      <h>221</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>130.0;10.0;30.0;10.0;30.0;150.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>572</x>
+      <y>507</y>
+      <w>78</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>40.0;10.0;10.0;10.0;10.0;30.0;40.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>637</y>
+      <w>143</w>
+      <h>156</h>
+    </coordinates>
+    <panel_attributes>폼 구매 정보
+halign=center
+valign=center
+style=autoresize
+-
+/index number/
+-.
+폼 번호
+-.
+구매자
+-.
+구매일</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>754</x>
+      <y>351</y>
+      <w>377</w>
+      <h>494</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;280.0;50.0;280.0;50.0;360.0;270.0;360.0;270.0;10.0;240.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>754</x>
+      <y>637</y>
+      <w>117</w>
+      <h>78</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>70.0;10.0;30.0;10.0;30.0;40.0;10.0;40.0</additional_attributes>
+  </element>
+</diagram>
