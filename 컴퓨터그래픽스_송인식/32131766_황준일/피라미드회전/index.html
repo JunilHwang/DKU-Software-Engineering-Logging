@@ -2,7 +2,7 @@
 
 <head>
 <title>Learning WebGL &mdash; lesson 4</title>
-<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="content-type" content="text/html; charset=utf8">
 
 <script type="text/javascript" src="glMatrix-0.9.5.min.js"></script>
 <script type="text/javascript" src="webgl-utils.js"></script>
@@ -192,7 +192,11 @@
         mat4.translate(mvMatrix, [0.0, 0.0, -8.0]);
 
         mat4.set(mvMatrix, mat4.create());
-        mat4.rotate(mvMatrix, 0, [0, 1, 0]);
+        document.querySelectorAll('.axis').forEach((v, k) => {
+            const arr = [0, 0, 0];
+            arr[k] = 1
+            mat4.rotate(mvMatrix, parseFloat(v.value), arr);
+        })
 
         gl.bindBuffer(gl.ARRAY_BUFFER, pyramidVertexPositionBuffer);
         gl.vertexAttribPointer(shaderProgram.vertexPositionAttribute, pyramidVertexPositionBuffer.itemSize, gl.FLOAT, false, 0, 0);
@@ -224,12 +228,13 @@
 
 
 <body onload="webGLStart();">
-    <a href="http://learningwebgl.com/blog/?p=370">&lt;&lt; Back to Lesson 4</a><br />
-
     <canvas id="lesson04-canvas" style="border: none;" width="500" height="500"></canvas>
-
-    <br/>
-    <a href="http://learningwebgl.com/blog/?p=370">&lt;&lt; Back to Lesson 4</a><br />
+    <ul>
+        <li>x축 회전 값: <input type="number" class="axis" value="0" step="0.1" ></li>
+        <li>y축 회전 값: <input type="number" class="axis" value="0" step="0.1" ></li>
+        <li>z축 회전 값: <input type="number" class="axis" value="0" step="0.1" ></li>
+        <li><button onclick="drawScene()">회전</button></li>
+    </ul>
 </body>
 
 </html>
